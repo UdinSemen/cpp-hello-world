@@ -1,13 +1,13 @@
 #include <iostream>
-#include <string>
+
+void f() {
+    int a;
+}
 
 int main() {
-    std::cout << "Write your name: " << std::endl;
-
-    std::string name;
-    std::cin >> name;
-
-    std::cout << "Hello, " << name << "!" << std::endl;
+    int x;
+    std::cin >> x;
+    f();
 
     return 0;
 }
